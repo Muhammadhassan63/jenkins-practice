@@ -14,7 +14,7 @@ pipeline{
     }
     stage('Deploy'){
       steps{
-        sh 'python3 python4.py'
+        sh 'python3 python3.py'
       }
     }
   } 
